@@ -41,6 +41,7 @@ class QuizUtils {
     static ArrayList<Integer> generateQuestion(ArrayList<Integer> remainingSampleIDs){
 
         // Shuffle the remaining sample ID's.
+        //将数组中有顺序的元素打乱，就跟洗牌一样
         Collections.shuffle(remainingSampleIDs);
 
         ArrayList<Integer> answers = new ArrayList<>();
